@@ -1,0 +1,275 @@
+@import url(https://allfont.ru/allfont.css?fonts=sansation-regular);
+*,
+*::after,
+*::before{margin: 0;border: 0;padding: 0;box-sizing: border-box;}
+a{text-decoration: none; color: #4D4959;}
+li{list-style: none;}
+body{
+    font-family: 'Sansation Regular', arial;
+    font-size: 20px;
+    line-height: 2rem;
+    color: #ffffff;
+    min-height: 100%;
+    background-color: rgba(247, 247, 247, 1);
+}
+.wrapper{
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 auto;}
+.header{
+    min-height: 750px;
+    background-image: url("../img/fon1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* ------------------------- menu ------------- */
+.menu2 li a{
+    color: #ffffff;
+}
+.menu2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu2 .item{
+    padding: 22px 25px;
+    position: relative;}
+.Logo{
+   padding: 22px 0 0 30px; 
+   position: absolute;
+}
+/* ------------------------------text-------------------------- */
+.header h2{
+    margin: 150px 185px 0px 185px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 60px;
+    padding: 48px 100px 0 100px; 
+    border-top: 3px solid #ffffff30;
+    border-left: 3px solid #ffffff30;
+    border-right: 3px solid #ffffff30;
+}
+.header p{
+    margin: 0px 185px 63px 185px;
+    text-align: center;
+    font-size: 16px;
+    padding: 28px 70px 117px 70px; 
+    border-bottom: 3px solid #ffffff30;
+    border-left: 3px solid #ffffff30;
+    border-right: 3px solid #ffffff30;
+}
+.knopka{
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-44%);
+    top:503px;}
+.knopka a{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 20px 50px 21px 50px;}
+/* -------------------------------------------------------penn----------------- */
+.pen{
+    display: flex;
+}
+.column1{
+    flex: 0 1 50%;
+    position: relative;
+}
+.column2{
+    flex: 0 1 50% ;
+}
+.column2 .itemText{
+    text-align: left;
+    background-color: #ffffff;
+    color: #000000;
+}
+.column2 .itemText h2{
+    font-size: 31px;
+    text-transform: uppercase;
+    padding: 50px 0 15px 0;
+    border-bottom: 2px solid #000000;
+    margin: 0 100px 0 50px;
+}
+.column2 .itemText p{
+    font-size: 14px;
+    padding: 20px 100px 0 50px;
+    }
+.column1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.kastyl{
+    margin: 0 0 35px 0;
+}
+.knop{
+    background-color: rgba(5, 160, 175, 1);
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0 0 0 50px;
+    padding: 10px 40px;
+}
+/* ---------------------next section---------------- */
+.OurServices{
+    height: 142px;
+    background-color: rgba(55, 55, 55, 1);
+    }
+.OurServices h2{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    font-weight:400;
+    padding: 56px 0;
+}
+/* ----------------------------------cardking------------------- */
+.cardking{
+    display: flex;
+    height: 560px;
+    background-color: rgba(61, 61, 61, 1);
+    text-align: center;
+    }
+.card:hover{
+    background-color: rgba(9, 126, 137, 1);
+}
+.card1{
+    flex: 0 1 33.3333%;
+}
+.card2{
+    flex: 0 1 33.3333%;
+}
+.card3{
+    flex: 0 1 33.3333%;
+}
+.card a{
+    background-color: rgba(149, 149, 149, 1);
+    font-size: 16px;
+    padding: 5px 30px;
+    text-transform: uppercase;
+    color:#ffffff;
+}
+.card h3{
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.card p{
+    font-size:18px;
+    padding: 20px 10px;
+    }
+.card img{
+    padding: 110px 0 55px 0;
+}
+/* ---------------------next section---------------- */
+.Feedback{
+    height: 142px;
+    background-color: rgba(55, 55, 55, 1);
+    }
+.Feedback h2{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    font-weight:400;
+    padding: 56px 0;
+}
+/* ---------------------foto------- */
+.Fotoo{
+    display: flex;
+    height: 281px;
+    background-color: rgba(61, 61, 61, 1);
+    text-align: center;
+    padding: 20px 0;
+}
+.foto1,.foto2,.foto3,.foto4{
+    flex: 0 1 25%;
+}
+  /* ---------------------next section---------------- */
+.Clients{
+    height: 142px;
+    background-color: rgba(254, 254, 254, 1);
+    }
+.Clients h2{
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    font-weight:400;
+    padding: 56px 0;
+}  
+/* ---------------------clients------- */
+.ollclients1{
+    display: flex;
+    background-color: rgba(254,254,254,1);
+    height: 142px;
+    text-align: center;    
+}
+.client1,.client2,.client3,.client4{
+    flex: 0 1 25%;;
+}
+.ollclients2{
+    display: flex;
+    background-color: rgba(254,254,254,1);
+    height: 142px;
+    text-align: center;
+}
+.client5,.client6,.client7,.client8{
+    flex: 0 1 25%;;
+}
+  /* ---------------------next section---------------- */
+.form{
+    height: 180px;
+    background-color: rgba(9, 126, 137, 1);
+    }
+.tex h2{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight:400;
+    padding: 29px 30px 15px 50px;
+   }
+.tex p{
+    font-size: 15px;
+    padding: 0px 0 15px 50px;
+}
+.forms{
+    display: flex;
+}  
+.tex{
+    flex: 0 1 50%;
+}
+.formmm{
+    flex: 0 1 50%;
+    text-align: center;
+    margin: auto 0;
+}
+/* ---------------------footer---------------- */
+.footer{
+    height: 214px;
+    background-color: rgba(71, 71, 71, 1);
+}
+.allfooter{display: flex;}
+.prodect{flex:0 1 20%}
+.learn{flex:0 1 20%}
+.COMPANY{flex:0 1 20%}
+.formsa{flex: 0 1 40%;}
+.product ul li a, .formsa ul li a, .learn ul li a, .COMPANY ul li a {
+    color:#ffffff;
+    padding: 40px 20px;
+    font-size: 18px;
+}
+
+.product h5, .formsa h5, .learn h5, .COMPANY h5{
+    color:#ffffff;
+    padding: 0 20px;
+    margin: 0 10px;
+    border-bottom: 2px solid #ffffff;
+    text-transform: uppercase;}
+.formsa{
+    text-align: center;
+    margin: auto 0;
+}
